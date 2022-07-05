@@ -23,7 +23,6 @@ if __name__ == "__main__":
         for line in sys.stdin:
             if total_lines != 0 and total_lines % 10 == 0:
                                                                                                                                        print_values(status_code, file_size)
-
                                                                                                                                    total_lines += 1
                                                                                                                                    ln = line.split()
 
